@@ -1,13 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* normal css for the body  */
+/* so you can write normal css here that will apply to html tags?  */
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #000300;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* .nav-links {
+  min-width: 80px;
+  text-align: center;
+} */
+
+/* custom class created  */
+.papayawhip {
+  color: coral;
+}
+
+.max-height {
+  height: calc(100vh - 96px);
 }
